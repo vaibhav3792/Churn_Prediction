@@ -1,0 +1,13 @@
+# Ignore Data
+data/
+*.csv
+
+# Ignore System Files
+__pycache__/
+*.pkl
+*.h5
+.DS_Store
+
+# Ignore Virtual Environments
+venv/
+env/
