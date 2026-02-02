@@ -59,7 +59,9 @@ def load_encoders():
 model = load_model()
 label_encoder_gender, one_hot_encoder_geo, scaler = load_encoders()
 
-st.image("https://miro.medium.com/max/844/1*MyKDLRda6yHGR_8kgVvckg.png", use_container_width=True)
+col_head1, col_head2, col_head3 = st.columns([1, 6, 1]) # Adjust ratio to make center column wider/narrower
+with col_head2:
+    st.image("https://miro.medium.com/max/844/1*MyKDLRda6yHGR_8kgVvckg.png", use_container_width=True)
 
 st.title("Customer Retention Analytics")
 st.markdown("<p style='text-align: center; color: #6c757d;'>Advanced AI-driven churn risk assessment for banking customers.</p>", unsafe_allow_html=True)

@@ -13,7 +13,8 @@ The application is built using **Artificial Neural Networks (ANN)** for high-acc
 ---
 
 ## 📸 Interface
-
+![alt text](image.png)
+![alt text](image-1.png)![alt text](image-2.png)
 > The dashboard provides real-time risk assessment and actionable insights.
 
 ---
