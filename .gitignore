@@ -1,13 +1,13 @@
-# Ignore Data
-data/
-*.csv
 
-# Ignore System Files
 __pycache__/
-*.pkl
-*.h5
-.DS_Store
+*.py[cod]
 
-# Ignore Virtual Environments
+
 venv/
 env/
+.env
+.venv
+
+
+.DS_Store
+.vscode/
