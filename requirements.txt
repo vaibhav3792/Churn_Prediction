@@ -1,5 +1,6 @@
+streamlit
 pandas
 numpy
-tensorflow-cpu
 scikit-learn
-streamlit
+tensorflow-cpu==2.15.0
+protobuf<4.21.0
